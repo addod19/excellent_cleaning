@@ -1,0 +1,47 @@
+import React from 'react';
+
+import logo from '../Images/clean.jpeg';
+import {FaAlignRight} from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+
+import '../components/Navbar.css';
+
+
+class Navbar extends React.Component {
+    state = {
+        isOpen: false
+    }
+
+    handleToggle = () => {
+        this.setState( {isOpen: !this.state.isOpen} )
+    }
+    render() {
+        return(
+            <nav className="navbar">
+                <div className="nav-center">
+                    <div className="nav-header">
+                        <Link to="/">
+                            <img src={logo} alt="my logo" className="logo" />
+                        </Link>
+                        <button type="button" className="nav-btn" onClick={this.handleToggle}>
+                            <FaAlignRight className="nav-icon" />
+                        </button>
+                    </div>
+                    <ul className={this.state.isOpen? "nav-links show-nav" : "nav-links" }>
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/about">About</Link>
+                        </li>
+                        <li>
+                            <Link to="/contact">Contact</Link>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        )
+    }
+}
+
+export default Navbar;
