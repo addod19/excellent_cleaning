@@ -22,12 +22,7 @@ export default [
     fields: {
       name: "Internal Cleaning",
       slug: "Internal Cleaning",
-      type: "single",
       price: 100,
-      size: 200,
-      capacity: 1,
-      pets: false,
-      breakfast: false,
       featured: false,
       description:
         "We provide quality services",
@@ -79,12 +74,7 @@ export default [
     fields: {
       name: "testing 1",
       slug: "testing 1",
-      type: "testing 1",
-      price: 150,
-      size: 250,
-      capacity: 1,
-      pets: false,
-      breakfast: false,
+      price: 150,      
       featured: false,
       description:
         "Fast and comfortable cleaning",
@@ -136,12 +126,7 @@ export default [
     fields: {
       name: "single standard clean",
       slug: "single-standard clean",
-      type: "single",
       price: 250,
-      size: 300,
-      capacity: 1,
-      pets: true,
-      breakfast: false,
       featured: false,
       description:
         "TRUST US TO DELIVERY, WE HAVE REPUTATION",
@@ -193,12 +178,7 @@ export default [
     fields: {
       name: "Car clean",
       slug: "Car clean",
-      type: "single",
-      price: 300,
-      size: 400,
-      capacity: 1,
-      pets: true,
-      breakfast: true,
+      price: 300,     
       featured: false,
       description:
         "Street CLEANING",
@@ -250,12 +230,7 @@ export default [
     fields: {
       name: "testing 1",
       slug: "testing 1",
-      type: "testing 1",
       price: 200,
-      size: 300,
-      capacity: 2,
-      pets: false,
-      breakfast: false,
       featured: false,
       description:
         "testing 1",
@@ -307,12 +282,7 @@ export default [
     fields: {
       name: "testing 1",
       slug: "testing 1",
-      type: "testing 1",
       price: 250,
-      size: 350,
-      capacity: 2,
-      pets: false,
-      breakfast: false,
       featured: false,
       description:
         "testing 1",
@@ -364,12 +334,7 @@ export default [
     fields: {
       name: "testing 1",
       slug: "testing 1",
-      type: "testing 1",
       price: 300,
-      size: 400,
-      capacity: 2,
-      pets: true,
-      breakfast: false,
       featured: false,
       description:
         "testing 1",
@@ -421,12 +386,7 @@ export default [
     fields: {
       name: "testing 1",
       slug: "testing 1",
-      type: "testing 1",
       price: 400,
-      size: 500,
-      capacity: 2,
-      pets: true,
-      breakfast: true,
       featured: true,
       description:
         "testing 1",
@@ -478,12 +438,7 @@ export default [
     fields: {
       name: "testing 1",
       slug: "testing 1",
-      type: "family",
       price: 300,
-      size: 500,
-      capacity: 3,
-      pets: false,
-      breakfast: false,
       featured: false,
       description:
         "testing 1",
@@ -535,12 +490,7 @@ export default [
     fields: {
       name: "testing 1",
       slug: "testing 1",
-      type: "testing 1",
       price: 350,
-      size: 550,
-      capacity: 4,
-      pets: false,
-      breakfast: false,
       featured: false,
       description:
         "testing 1",
@@ -592,12 +542,7 @@ export default [
     fields: {
       name: "testing 1",
       slug: "testing 1",
-      type: "testing 1",
       price: 400,
-      size: 600,
-      capacity: 5,
-      pets: true,
-      breakfast: false,
       featured: false,
       description:
         "testing 1",
@@ -649,12 +594,7 @@ export default [
     fields: {
       name: "testing 1",
       slug: "testing 1",
-      type: "testing 1",
       price: 500,
-      size: 700,
-      capacity: 6,
-      pets: true,
-      breakfast: true,
       featured: true,
       description:
         "testing 1",
@@ -706,12 +646,7 @@ export default [
     fields: {
       name: "testing 1",
       slug: "testing 1",
-      type: "testing 1",
       price: 600,
-      size: 1000,
-      capacity: 10,
-      pets: true,
-      breakfast: true,
       featured: true,
       description:
         "testing 1",
