@@ -21,7 +21,7 @@ class Navbar extends React.Component {
                 <div className="nav-center">
                     <div className="nav-header">
                         <Link to="/">
-                            <img src={logo} alt="my logo" className="logo" />
+                            <img src={logo} alt="click the icon" title="click the icon" className="logo" />
                         </Link>
                         <button type="button" className="nav-btn" onClick={this.handleToggle}>
                             <FaAlignRight className="nav-icon" />
@@ -32,11 +32,11 @@ class Navbar extends React.Component {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/about">About</Link>
-                        </li>
-                        <li>
                             <Link to="/contact">Contact</Link>
                         </li>
+                        <li>
+                            <Link to="/about">About</Link>
+                        </li>                        
                     </ul>
                 </div>
             </nav>

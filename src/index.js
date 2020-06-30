@@ -6,11 +6,15 @@ import * as serviceWorker from './serviceWorker';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 
+import { WorkProvider } from './Context';
+
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <App />
-    </Router>
+    <WorkProvider>
+      <Router>
+        <App />
+      </Router>
+    </WorkProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

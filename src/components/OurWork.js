@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { RoomContext } from '../context';
+import { WorkContext } from '../Context';
 import Loading from '../components/Loading';
 import Work from '../components/Work';
 import Title from './Title';
@@ -17,13 +17,13 @@ class OurWork extends React.Component {
             return <Work key={work.id} work={work} />
         })
 
+        console.log(works);
         return(
             <section className="featured-rooms">
-                <Title title="featured rooms" />
+                <Title title="Our sample work" />
                 <div className="featured-rooms-center">
                     { loading ? <Loading /> : works }
-                </div>
-                
+                </div>                
             </section>
         )
     }

@@ -41,7 +41,7 @@ class WorkProvider extends React.Component {
 
     getWork = slug => {
         let tempWorks = [...this.state.works];
-        const room = tempWorks.find( work => work.slug === slug )
+        const work = tempWorks.find( work => work.slug === slug )
 
         return work;
     }

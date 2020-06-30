@@ -1,9 +1,20 @@
 import React from 'react';
 
+import Hero from '../../components/Hero';
+import { Link } from 'react-router-dom';
+import Banner from '../../components/Banner';
+
 const Contact = () => {
     return(
         <>
-            <h1>Contact page</h1>
+            <Hero hero="contactHero">
+                <Banner title='Contact Excellent Cleaning' subtitle="kindly call 0247439524">
+                    <Link to='about' className='btn-primary'>
+                        Contact Us
+                    </Link>
+                </Banner>
+            </Hero>
+            
         </>
     )
 }

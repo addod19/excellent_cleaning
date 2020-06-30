@@ -6,6 +6,7 @@ import About from '../src/pages/About/About';
 import Contact from '../src/pages/Contact/Contact';
 import Error from '../src/pages/Error/Error';
 import Navbar from '../src/components/Navbar';
+import Footer from '../src/components/Footer';
 
 import {Switch, Route} from 'react-router-dom';
 
@@ -21,6 +22,7 @@ const App = () => {
         <Route exact path='/contact' component={Contact} />
         <Route component={Error} />
       </Switch>
+      <Footer />
     </div>
   );
 }
