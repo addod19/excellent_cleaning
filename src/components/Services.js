@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCocktail, FaTheaterMasks, FaToolbox, FaShuttleVan, FaPeopleCarry } from 'react-icons/fa';
+import { FaTheaterMasks, FaToolbox, FaShuttleVan, FaPeopleCarry } from 'react-icons/fa';
 
 import Title from './Title';
 import './Services.css';
