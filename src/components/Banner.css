@@ -6,33 +6,33 @@
     text-align: center;
     text-transform: capitalize;
     letter-spacing: var(--mainSpacing);
-  }
-  .banner h1 {
+}
+.banner h1 {
     font-size: 2.5rem;
-  }
-  .banner div {
+}
+.banner div {
     width: 10rem;
     height: 5px;
     background: var(--primaryColor);
     margin: 1.7rem auto;
-  }
-  .banner p {
+}
+.banner p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-  }
-  @media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 576px) {
     .banner {
       padding: 2rem 3rem;
     }
     .banner h1 {
       font-size: 3rem;
     }
-  }
-  @media screen and (min-width: 992px) {
+}
+@media screen and (min-width: 992px) {
     .banner {
       padding: 2rem 6rem;
     }
     .banner h1 {
       font-size: 4rem;
     }
-  }
+}
