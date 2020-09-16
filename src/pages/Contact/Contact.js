@@ -8,7 +8,7 @@ const Contact = () => {
     return(
         <>
             <Hero hero="contactHero">
-                <Banner title='Contact Excellent Cleaning' subtitle="kindly call 0247439524">
+                <Banner title='Contact Excellent Cleaning' subtitle="kindly call +233240071212">
                     <Link to='about' className='btn-primary'>
                         Contact Us
                     </Link>

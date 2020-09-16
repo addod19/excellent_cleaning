@@ -10,9 +10,9 @@ const Home = () => {
     return(
         <>
             <Hero>
-                <Banner title='Excellent Cleaning' subtitle="As low as $70">
+                <Banner title='A.E APPLE CLEANING Co. LTD' subtitle="As low as $70">
                     <Link to='about' className='btn-primary'>
-                        Excellent Cleaning
+                        A.E APPLE CLEANING Co. LTD
                     </Link>
                 </Banner>
             </Hero>

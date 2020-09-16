@@ -25,6 +25,21 @@ class Services extends React.Component {
             },
             {
                 icon: <FaShuttleVan />,
+                title: 'Fumigation and Pest Control',
+                info: 'Homes, Hotels, Companies, Hopitails, and more',
+            },
+            {
+                icon: <FaShuttleVan />,
+                title: 'Car Detailing',
+                info: 'Everything that needs cleaning is done by us',
+            },
+            {
+                icon: <FaShuttleVan />,
+                title: 'Carpet Cleaning',
+                info: 'Everything that needs cleaning is done by us',
+            },
+            {
+                icon: <FaShuttleVan />,
                 title: 'Internal and External Cleaning',
                 info: 'Everything that needs cleaning is done by us',
             }
