@@ -31,7 +31,7 @@ class Services extends React.Component {
             {
                 icon: <FaShuttleVan />,
                 title: 'Car Detailing',
-                info: 'Everything that needs cleaning is done by us',
+                info: 'Everything about car detailing is done by us',
             },
             {
                 icon: <FaShuttleVan />,

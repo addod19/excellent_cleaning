@@ -4,6 +4,8 @@ import Hero from '../../components/Hero';
 import { Link } from 'react-router-dom';
 import Banner from '../../components/Banner';
 
+import AboutDetails from '../../components/AboutDetails';
+
 const Contact = () => {
     return(
         <>
@@ -14,7 +16,7 @@ const Contact = () => {
                     </Link>
                 </Banner>
             </Hero>
-            
+            <AboutDetails />
         </>
     )
 }

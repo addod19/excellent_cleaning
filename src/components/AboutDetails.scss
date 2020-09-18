@@ -1,0 +1,17 @@
+.addressWrap {
+  height: 15em;
+  text-align: center;
+
+  address {
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 25%;
+    margin-top: 3%;
+    background-color:var(--offWhite);
+    color: var(--mainBlack);
+
+    a {
+      color: var(--primaryColor);
+    }
+  }
+}

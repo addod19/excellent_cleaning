@@ -17,7 +17,6 @@ class OurWork extends React.Component {
             return <Work key={work.id} work={work} />
         })
 
-        console.log(works);
         return(
             <section className="featured-rooms">
                 <Title title="Our sample work" />
